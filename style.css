@@ -1,0 +1,54 @@
+.calculatorBody {
+    width: 150px;
+    height: 200px;
+
+    background-color: grey;
+    border-radius: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.screen {
+    width: 115px;
+    height: 30px;
+
+    border: 2px solid black;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.buttonsContainer {
+    width: 130px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 3px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.number {
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+}
+
+.operator {
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: darkorange;
+    color: white;
+}
+
+.interface {
+    border: 1px solid darkgrey;
+    border-radius: 2px;
+}
